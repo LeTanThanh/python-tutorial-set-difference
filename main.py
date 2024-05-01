@@ -26,3 +26,18 @@ if __name__ == "__main__":
   print(s1)
   print(s2)
   print(s)
+
+  # The set difference() method vs set difference operator (-)
+
+  scores = {7, 8, 9}
+  numbers = [9, 10]
+  new_scores = scores.difference(numbers)
+
+  print(scores)
+  print(numbers)
+  print(new_scores)
+
+  scores = {7, 8, 9}
+  numbers = [9, 10]
+  # new_scores = scores - numbers
+  # TypeError
